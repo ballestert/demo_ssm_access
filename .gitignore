@@ -8,6 +8,10 @@
 # .lock files
 *.lock.hcl
 
+# DrawIO bkp files
+*.bkp
+*.dtmp
+
 # Crash log files
 crash.log
 crash.*.log
