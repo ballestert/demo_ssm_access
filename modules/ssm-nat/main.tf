@@ -1,6 +1,6 @@
 # Create base VPC infrastructure
 module "vpc" {
-  source = "../ssm-vpc"
+  source = "../common"
 
   vpc_cidr     = var.vpc_cidr
   aws_region   = var.aws_region
