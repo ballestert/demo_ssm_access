@@ -54,6 +54,7 @@ Key components:
 - Private subnets
 - VPC Endpoints for SSM, EC2 Messages, and SSM Messages
 - IAM roles and policies for Systems Manager access
+- EC2 with SSM Agent
 
 ### NAT Gateway Demo
 This module shows how to access private EC2 instances using a NAT Gateway for outbound internet access.
@@ -64,7 +65,11 @@ Key components:
 - NAT Gateway
 - Internet Gateway
 - Route tables for internet access
+- IAM roles and policies for Systems Manager access
+- EC2 with SSM Agent
 
+
+### Summary
 | Feature | PrivateLink | NAT Gateway |
 |---------|------------|-------------|
 | Internet Access | No | Yes (Outbound) |
